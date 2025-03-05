@@ -1,0 +1,93 @@
+.navbar{
+    width: 100%;
+    min-height: 60px;
+
+}
+nav{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 100%;
+    padding: 0 20px;
+    background-color: rgb(255, 147, 65);
+    color: white;
+}
+nav img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    margin: 0 14px;
+}
+nav ul li{
+    margin: 0 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+}
+nav ul li:hover{
+    background-color: rgb(32, 24, 47);
+    padding: 7px;
+    border-radius: 5px;
+}
+.template{
+  width: 100%;
+  min-height: 40vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+.template h1{
+  font-size: 40px;
+  font-weight: bolder;
+  font-family: 'Roboto', sans-serif;
+  margin: 20px 0;
+  text-align: center;
+}
+.template .templates{
+    width: 100%;
+    min-height: 30vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-temp{
+    width: 18%;
+    height: 300px;
+    margin: 10px;
+    background-color: rgb(255, 147, 65);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.card-temp img{
+    width: 100%;
+    height: 70%;
+}
+.card-temp h2{
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-align: center;
+    margin: 10px 0;
+}
+@media only screen and (max-width: 600px) {
+    nav{
+     flex-direction: column;
+     padding: 24px 0px;
+     justify-content: center;
+
+    }
+    nav ul li {
+        margin: 13px 14px;
+        }    
+    .card-temp{
+        width: 100%;
+    }
+    .card-temp h2{
+
+    }
+}

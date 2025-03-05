@@ -1,0 +1,29 @@
+/* Hide the Open Blocks button */
+.gjs-pn-btn[title="Open Blocks"] {
+  display: none !important;
+}
+.gjs-one-bg {
+  background-color: #fff !important; /* Dark gray */
+}
+.gjs-two-color {
+  color: #000000 !important; /* White */
+} 
+.gjs-three-color {
+  color: #224563 !important; /* Dark gray */
+}
+.gjs-four-color {
+  color: #224563 !important; /* Dark gray */
+}
+.gjs-five-color {
+  color: #224563 !important; /* Dark gray */
+}
+.gjs-four-color-h:hover {
+  color: #224563 !important; /* Dark gray */
+}
+#blocks{
+  height: 49vw;
+  overflow: scroll;
+}
+::-webkit-scrollbar{
+  display: none;
+}
